@@ -1,0 +1,23 @@
+
+<html>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form class="box" action="index.php" method="post">
+        <h1>Login</h1>
+        <input type="text" name="txtusuario" placeholder="Username" id='usuario'>
+        <input type="password" name="txtpassword" placeholder="Password" id='password'>
+        <select name="tipo" id="tipo" id='rol' required='required'>
+            <option selected='true' disabled='disabled'>Selecciona un rol</option>
+            <option>Granjero</option>
+            <option>Cliente</option>
+            <option>Tienda</option>
+        </select>
+        <input type="submit" name="" value="Login">
+    </form>
+
+</body>
+</html>
